@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="br">
+<link rel="stylesheet" type="text/css" href="configCss.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body text="white">
+    <form action="saibaMais.html" method="post" target="_blank">
+        <h2 class="labelForm">Nome:</h2> <input type="text" name="nome"> <br>
+        <h2 class="labelForm">Telefone:</h2> <input type="tel" name="telefone"> <br>
+
+        <h2 class="labelForm">Sexo:</h2>
+
+        <div class="input">
+            Masculino:<input type="radio" name="sexo" value="masculino">
+            Feminino:<input type="radio" name="sexo" value="feminino">
+            Prefiro não informar:<input type="radio" name="sexo" value="ninf"> <br>
+        </div>
+
+        <h2 class="labelForm">Casa própria:</h2>
+
+        <div class="input">
+            Sim<input type="radio" name="casaPropria" value="sim">
+            Não<input type="radio" name="casaPropria" value="nao"> <br>
+        </div>
+
+        <h2 class="labelForm">Mora com:</h2>
+
+        <div class="input">
+            Pais<input type="checkbox" name="pais">
+            Cachorro<input type="checkbox" name="cachorro">
+            Gato<input type="checkbox" name="gato">
+            Avós<input type="checkbox" name="avos"> <br><br>
+            <input type="submit" value="Enviar mensagem" class="input">
+        </div>
+    </form>
+</body>
+
+</html>

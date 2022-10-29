@@ -1,0 +1,32 @@
+body {
+    background-attachment: scroll;
+    background-image: url("img.png");
+    text-align: justify;
+}
+
+h2 {
+    color: coral;
+}
+
+a.link {
+    color: coral;
+}
+
+table.tabela td {
+    border: 3px solid coral;
+    align-items: center;
+    color: #ff8000;
+    background-color: #aa86638c;
+}
+
+table.tabela {
+    border: solid rgba(198, 109, 41, 0.532);
+}
+
+article.article {
+    color: chocolate;
+}
+
+.input {
+    color: chocolate;
+}
